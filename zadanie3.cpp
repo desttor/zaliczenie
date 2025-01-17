@@ -25,6 +25,7 @@ int main() {
     cout << "Silnia liczona iteracyjnie: " << silnia_iteracyjnie(n) << endl;
 
     cout << "Silnia liczona rekurencyjnie: " << silnia_rekurencyjnie(n) << endl;
+    //koniec programu
 
     return 0;
 }
