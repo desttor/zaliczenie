@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 int silnia_iteracyjnie(int n) {
     int wynik = 1;
@@ -22,9 +22,9 @@ int main() {
     cout << "Podaj liczbę do obliczenia silni: ";
     cin >> n;
 
-    cout << "Silnia obliczona iteracyjnie: " << silnia_iteracyjnie(n) << endl;
+    cout << "Silnia liczona iteracyjnie: " << silnia_iteracyjnie(n) << endl;
 
-    cout << "Silnia obliczona rekurencyjnie: " << silnia_rekurencyjnie(n) << endl;
+    cout << "Silnia liczona rekurencyjnie: " << silnia_rekurencyjnie(n) << endl;
 
     return 0;
 }
