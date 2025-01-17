@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 
 using namespace std;
 
@@ -10,9 +10,9 @@ struct Osoba {
 
 int main() {
     Osoba osobaStatyczna;
-    osobaStatyczna.imie = "Jan";
+    osobaStatyczna.imie = "Jacek";
     osobaStatyczna.nazwisko = "Kowalski";
-    osobaStatyczna.wiek = 30;
+    osobaStatyczna.wiek = 45;
 
     cout << "Osoba statyczna: " << endl;
     cout << "Imie: " << osobaStatyczna.imie << endl;
