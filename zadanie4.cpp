@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 inline int funinline(int x, int y) {
@@ -14,11 +14,5 @@ int main()
     cout << "podaj liczbe y: ";
     cin >> liczba_y;
     cout << "mnozenie liczb wynosi: " << funinline(liczba_x, liczba_y);
-
-    /*
-    Funkcja inline sugeruje kompilatorowi, aby wstawił jej kod bezpośrednio w miejscu wywołania,
-    zamiast tworzyć osobne wywołanie funkcji. Może to zwiększyć wydajność, unikając kosztu wywołania,
-    ale jednocześnie zwiększa rozmiar kodu. Kompilator nie zawsze stosuje inline dla złożonych funkcji.
-    */
 }
 
