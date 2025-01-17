@@ -1,4 +1,4 @@
-﻿#include <iostream>
+#include <iostream>
 using namespace std;
 
 // Enum (wyliczenie) - pozwala zdefiniowac zestaw nazwanych stalych liczbowych.
@@ -13,8 +13,6 @@ enum Dzien {
     Niedziela
 };
 
-// Unia - struktura pamieciowa, ktora pozwala przechowywac rozne typy danych w tym samym miejscu w pamieci.
-// Wszystkie pola unii wspoldziela te sama przestrzen pamieci, dlatego w danym momencie mozna uzywac tylko jednego pola.
 union Dane {
     int liczbaCalkowita;
     float liczbaZmiennoprzecinkowa;
